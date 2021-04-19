@@ -1,0 +1,299 @@
+
+/* Font: Roboto
+Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
+
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* MAIN START */
+
+main{
+    height: 100vh;
+    background: url(../img/ilustracion1.png)right top no-repeat;
+    background-size: 40%;    
+}
+
+.logo{
+    display: flex;  
+}
+
+.name{
+    position: absolute;
+}
+
+.logo img{
+    width: 3%;
+    padding-left: 20px;
+    padding-top: 15px;
+    
+}
+
+.name h3{
+    margin-bottom: 0;
+    font-weight: bolder;
+    position: relative;
+    left: 5%;
+}
+
+.name p{
+    font-weight: lighter;
+    margin-top: 0;
+    position: relative;
+    left: 5%;
+}
+
+.name img{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -10%;
+}
+
+.titel h1{
+    width: 30%;
+    margin-left: 25%;
+    margin-top: 15%;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.titel p{
+    width: 30%;
+    margin-left: 25%;
+    font-weight: lighter;
+}
+
+.scroll a{
+    text-decoration: none;
+    color: red;
+}
+
+.scroll{
+    margin: 10% 0 0 25%;
+}
+
+/* SECTION GALLERY */
+
+.gallery{
+    background: url(../img/images.jpg)center/cover no-repeat;
+    height: 50vh;
+    background-size: 90%;
+}
+
+/* SECTION IDEA */
+
+.idea div{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    
+}
+
+.idea h2{
+    font-size: 2.5em;
+    width: 20%;
+    margin-top: 0;
+}
+
+.idea p{
+    width: 40%;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 1.5%;
+    line-height: 25px;
+}
+
+.idea h2 img{
+    width: 15%;
+}
+
+/* SECTION AFTER */
+
+.after h1{
+    font-size: 2.5em;
+    width: 35%;
+    margin-left: 20%;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+/* SECTION NOTES */
+
+.notes {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: lighter;
+}
+
+.notes article{
+    width: 25%;
+    margin-top: 5%;
+}
+
+.notes article div p{
+    margin-top: 0;
+    line-height: 30px;
+    
+}
+
+.notes h3{
+    margin-bottom: 15px;
+}
+
+.star::before{
+    content: "✴️";
+    margin-left: -10%;
+    margin-right: 3%;
+}
+
+.value::before{
+    content: "🔂";
+    margin-left: -10%;
+    margin-right: 3%;  
+}
+
+.love::before{
+    content: "💟";
+    margin-left: -10%;
+    margin-right: 3%;
+}
+
+.share::before{
+    content: "✅";
+    margin-left: -10%;
+    margin-right: 3%;
+}
+
+
+
+/* ARTICLE READY */
+
+
+
+.ready h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.ready p{
+    font-weight: lighter;
+    text-align: center;
+}
+
+.text{
+    width: 40%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+/* SECTION NUMBERS */
+/* ONE */
+
+.one{
+    display: flex;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+
+.numbers h2{
+font-size: 3em;
+color: #dddddd;
+}
+
+.numbers p{
+    font-weight: lighter;
+    width: 70%;
+    line-height: 25px;
+}
+
+.numbers img{
+    width: 70%;
+}
+
+/* TWO */
+
+.two{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+/* THREE */
+
+.three{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+/* FOUR */
+
+.four{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+/* SECTION LAST */
+
+.last{
+    display: flex;
+    justify-content: center;
+}
+
+.last div{
+    text-align: center;
+}
+
+.last h1{
+    font-size: 2.5em;
+    margin-top: 20%;
+}
+
+.last p{
+    font-weight: lighter;
+    margin-bottom: 10%;
+}
+
+.last button{
+    padding: 10px 50px;
+    text-align: center;
+    margin-top: 10%;
+    background-color: #ff3571;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.last button:hover{
+    background: linear-gradient(70deg, #ff3571, #3C30FF);
+}
+
+.last input{
+    padding: 15px 30%;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: grey;
+    box-shadow: 10px 10px 50px #dddddd;
+}
+
+/* FOOTER */
+
+footer {
+    margin-left: 10%;
+    margin-top: 15%;
+}
+footer p{
+    font-weight: lighter;
+    display: inline-block;
+}
+
+footer img{
+    width: 2%;
+}
+
